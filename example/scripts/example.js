@@ -2713,7 +2713,8 @@ window.onload = function(){
 			console.log(err);
 		}
 		webapp.render( results.template, results.componentData, "scrollerhtml");
-
+		webapp.render( results.template, results.componentData, "anotherscrollerhtml");
+		webapp.render( results.template, results.componentData, "anotherscrollerhtml2");
 		// var data2 = results.componentData;
 		// data2.contentspec.config.html.dom_id="anotherScroller";
 		// listviewcroll2.render( results.template, data2, "anotherscrollerhtml");

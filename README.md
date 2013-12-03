@@ -1,4 +1,3 @@
-component-static.list-view
-==========================
+# component-static.list-view
 
-standard list view, no js
+An on scroll effect template that animates the sides of sections once they are in the viewport

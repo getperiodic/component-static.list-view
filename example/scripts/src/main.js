@@ -10,7 +10,7 @@ window.onload = function(){
 		template: function(callback){
 			module1.grabTemplate(window.document.getElementById('component-template').innerHTML,callback);
 	    },
-	    componentData: function(callback){module1.grabData('https://s3.amazonaws.com/gpsampledata/component.list-view-scroll/contentspec.json',callback);
+	    componentData: function(callback){module1.grabData('https://s3.amazonaws.com/gpsampledata/component.list-view-scroll/staticcontentspec.json',callback);
 	    }
 	},
 	function(err, results) {
